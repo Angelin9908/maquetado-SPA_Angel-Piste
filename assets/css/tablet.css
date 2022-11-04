@@ -1,0 +1,132 @@
+@media screen and (max-width:768px) {
+  .ancho{
+    max-width:90%;
+    margin: 0 auto;
+  }
+  
+  /* seccion con background */
+  .fondo-imagen{
+    display: flex;
+    background-image: url("../images/slide1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    height: 75vh
+  }
+  .corto{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+  }
+  .corto .texto{
+    width: 90%;
+  }
+  .corto .texto h3{
+    margin: 10px 0px;
+    text-align: center;
+  }
+  .corto .texto p{
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    text-align: justify;
+  }
+  .corto figure{
+    border: 7px solid green;
+    opacity: .3;
+    margin: 10px 0px;
+    width: 75%;
+  }
+  /* secction larga */
+  .equipo h3{
+    text-align: center;
+    padding: 30px 0px;
+  }
+  .puestosTrabajo{
+    display: flex;
+    flex-direction: column;
+    justify-content:stretch;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .puestos{
+    width: 90%;
+    text-align: justify;
+  }
+  .puestosTrabajo figure{
+    width: 80%;
+  }
+  /* cards */
+  .cards{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  .card{
+    border-radius: 10px;
+    width: 90%;
+    text-align: center;
+    background-color: #FFE8A4;
+    padding: 15px;
+    padding-bottom: 35px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  /* seccion galería */
+  .fotos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:stretch;
+    justify-content: center;
+    width: 100%;
+    height: 120vh;
+  }
+  .primero{
+    display: flex;
+    align-items: stretch;
+    max-width: 100%;
+    height: 35%;
+  }
+  .primero figure{
+    width: 100%;
+    height: 100%;
+  }
+  .primero figure img{
+    width: 100%;
+    height: 100%;
+  }
+  .segundo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+    height: 65%;
+  }
+  .segundo .segundo-img{
+    width: 50%;
+    height: 50%;
+  }
+  .segundo .segundo-img figure{
+    width: 100%;
+    height: 100%;
+  }
+  .segundo .segundo-img figure img{
+    width: 100%;
+    height: 100%;
+  }
+
+}
